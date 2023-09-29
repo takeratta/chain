@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.18.4
 
 RUN apk --no-cache add ca-certificates postgresql
 VOLUME /var/lib/postgresql/data
